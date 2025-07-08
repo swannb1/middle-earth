@@ -1,9 +1,10 @@
+import ShinyText from "./blocks/TextAnimations/ShinyText/ShinyText";
 import "./index.css";
 
 function App() {
   return (
-    <div className="bg-black text-white">
-      <p>Middle Earth</p>
+    <div className="bg-black">
+      <ShinyText text="Middle Earth" className="" />
     </div>
   );
 }
