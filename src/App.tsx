@@ -4,7 +4,7 @@ import "./index.css";
 function App() {
   return (
     <div className="bg-black">
-      <ShinyText text="Middle Earth" className="" />
+      <ShinyText text="Middle Earth" className="font-bilbo" />
     </div>
   );
 }
