@@ -14,7 +14,7 @@ const Navbar = () => {
       </div>
       <div className="w-[33%">
         <a>
-          <img src="../src/assets/Logo_White_Tree@4x1.svg" alt="White Tree Logo" className="w-[112px]" />
+          <img src="../src/assets/images/Logo_White_Tree@4x1.svg" alt="White Tree Logo" className="w-[112px]" />
         </a>
       </div>
       <div className="flex justify-around w-[33%] mt-[40px]">
