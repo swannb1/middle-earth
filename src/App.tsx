@@ -1,6 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./components/Navigation/Navbar";
 import HomeCarousel from "./components/Carousel/Carousel";
+import Welcome from "./components/Welcome";
 import "./index.css";
 
 function App() {
@@ -11,6 +12,9 @@ function App() {
       </div>
       <div className="pt-[130px] bg-black">
         <HomeCarousel />
+      </div>
+      <div>
+        <Welcome />
       </div>
     </div>
   );
