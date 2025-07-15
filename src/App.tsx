@@ -7,7 +7,7 @@ import "./index.css";
 function App() {
   return (
     <div className="">
-      <div className="bg-nazgul_gray h-[130px] fixed w-dvw z-10">
+      <div className="bg-nazgul_gray h-[130px] fixed w-dvw z-50">
         <Navbar />
       </div>
       <div className="pt-[130px] bg-black">
