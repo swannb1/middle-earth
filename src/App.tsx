@@ -1,21 +1,9 @@
-import "bootstrap/dist/css/bootstrap.min.css";
-import Navbar from "./components/Navigation/Navbar";
-import HomeCarousel from "./components/Carousel/Carousel";
-import Welcome from "./components/Welcome";
-import "./index.css";
+import { Outlet } from "react-router-dom";
 
 function App() {
   return (
-    <div className="">
-      <div className="bg-nazgul_gray h-[130px] fixed w-dvw z-50">
-        <Navbar />
-      </div>
-      <div className="pt-[130px] bg-black">
-        <HomeCarousel />
-      </div>
-      <div>
-        <Welcome />
-      </div>
+    <div>
+      <Outlet />
     </div>
   );
 }
