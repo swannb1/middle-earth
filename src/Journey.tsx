@@ -1,10 +1,10 @@
-import Navbar from "./components/Navigation/Navbar";
-import ToggleMap from "./components/Map/MapToggle";
+import Navbar from "./components/navigation/Navbar";
+import ToggleMap from "./components/map/MapToggle";
 
 const Journey = () => {
   return (
     <div>
-      <div className="bg-nazgul_gray">
+      <div className="bg-nazgul_gray h-[130px] fixed w-dvw z-50 border-b-2 border-[rgba(211,175,55)]">
         <Navbar />
       </div>
       <div>
@@ -20,7 +20,7 @@ const Journey = () => {
             <div className="bg-white/20 backdrop-blur-md rounded-lg shadow-xl p-10 text-center max-w-4xl">
               <p className="font-bilbo text-nazgul_gray text-[5rem] leading-tight">The journey that changed everything</p>
               <p className="font-quicksand text-[2rem] text-nazgul_gray mt-2 mb-4">
-                Follow the paths of Frodo, Sam, Aragorn and more - step by step, mile by mile
+                Follow the paths of Frodo, Sam, Aragorn and more. Step by step, mile by mile
               </p>
             </div>
           </div>

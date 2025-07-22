@@ -10,11 +10,15 @@ const Navbar = () => {
   const journeyClick = () => {
     navigate(`/journey`);
   };
+  const characterClick = () => {
+    navigate(`/characters`);
+  };
+
   return (
     <div className="flex justify-around items-center size-full">
       <div className="flex justify-around w-[33%] mt-[40px]">
         <Navbutton name="The Journey" handleClick={journeyClick} />
-        <Navbutton name="Characters" handleClick={tempClick} />
+        <Navbutton name="Characters" handleClick={characterClick} />
         <Navbutton name="Locations" handleClick={tempClick} />
       </div>
       <div className="w-[33%">

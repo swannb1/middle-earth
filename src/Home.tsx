@@ -1,14 +1,14 @@
-import Navbar from "./components/Navigation/Navbar";
+import Navbar from "./components/navigation/Navbar";
 import HomeCarousel from "./components/landing/Carousel";
 import Welcome from "./components/landing/Welcome";
-import Footer from "./components/Navigation/Footer";
+import Footer from "./components/navigation/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./index.css";
 
 const Home = () => {
   return (
     <div className="">
-      <div className="bg-nazgul_gray h-[130px] fixed w-dvw z-50">
+      <div className="bg-nazgul_gray h-[130px] fixed w-dvw z-50 border-b-2 border-[rgba(211,175,55)]">
         <Navbar />
       </div>
       <div className="pt-[130px] bg-black">

@@ -13,7 +13,7 @@ const Welcome = () => {
           <p className="font-bilbo text-nazgul_gray text-[5rem] leading-tight">Welcome to Middle Earth</p>
           <p className="font-quicksand text-[2rem] text-nazgul_gray mt-2 mb-4">the world of The Lord Of The Rings</p>
           <p className="font-maitree text-base text-nazgul_gray">
-            A gateway for first-timers and longtime fans alike — discover the beauty, depth, and wonder that continue to inspire generations. Whether
+            A gateway for first-timers and longtime fans alike. Discover the beauty, depth, and wonder that continue to inspire generations. Whether
             you're taking your first step or your hundredth, this is your guide to the timeless magic of Tolkien's world.
           </p>
         </div>

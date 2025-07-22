@@ -57,7 +57,7 @@ const ToggleMap = () => {
 
       {/* Toggle Switches */}
       <div className="z-20 flex flex-wrap justify-center gap-4 mb-8">
-        <Switch handleSwitchChange={() => setIsColorMap((prev) => !prev)} label="Toggle Map Color" />
+        <Switch handleSwitchChange={() => setIsColorMap((prev) => !prev)} label="Color Map" />
         <Switch handleSwitchChange={() => togglePath("frodoSam")} label="Frodo & Sam" />
         <Switch handleSwitchChange={() => togglePath("aragorn")} label="Aragorn" />
         <Switch handleSwitchChange={() => togglePath("boromir")} label="Boromir" />
