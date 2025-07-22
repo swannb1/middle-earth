@@ -8,9 +8,9 @@ const tempClick = () => {
 const Footer = () => {
   return (
     <div className="flex justify-around items-center size-full">
-      <div className="w-[40%] pl-5 pr-5">
+      {/* <div className="w-[40%] pl-5 pr-5">
         <GetQuote />
-      </div>
+      </div> */}
       <div className="grid grid-cols-2 gap-y-5 w-[30%]">
         <Navbutton name="The Journey" handleClick={tempClick} />
         <Navbutton name="Experiencing Middle Earth" handleClick={tempClick} />
