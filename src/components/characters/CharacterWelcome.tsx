@@ -12,7 +12,7 @@ const CharWel = () => {
           {/* Content Layer */}
           <div className="relative z-10 h-screen flex items-center justify-center px-6">
             <div className="bg-white/20 backdrop-blur-md rounded-lg shadow-xl p-10 text-center max-w-6xl">
-              <p className="font-bilbo text-nazgul_gray text-[5rem] leading-tight">The characters who changed middle earth</p>
+              <p className="font-bilbo text-nazgul_gray text-[5rem] leading-tight">The characters who changed middle Earth</p>
               <p className="font-quicksand text-[2rem] text-nazgul_gray mt-2 mb-4">Heroes, villains and everyone in between.</p>
               <p className="font-maitree text-[1rem] text-nazgul_gray">
                 The story of Middle-Earth isn't just about battles or ancient magic, it's about the people at the heart of it all. From the brave
