@@ -3,6 +3,7 @@ import Navbar from "./components/navigation/Navbar";
 import FellowshipCarousel from "./components/characters/FellowshipCarousel";
 import WhiteCouncilCarousel from "./components/characters/WhiteCouncil";
 import EnemiesCarousel from "./components/characters/EnemiesCarousel";
+import Footer from "./components/navigation/Footer";
 
 const Characters = () => {
   return (
@@ -21,6 +22,9 @@ const Characters = () => {
       </div>
       <div>
         <EnemiesCarousel />
+      </div>
+      <div className="bg-nazgul_gray h-[260px] border-t-2 border-[rgba(211,175,55)]">
+        <Footer />
       </div>
     </div>
   );

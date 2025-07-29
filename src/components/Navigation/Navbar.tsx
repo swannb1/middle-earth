@@ -13,13 +13,16 @@ const Navbar = () => {
   const characterClick = () => {
     navigate(`/characters`);
   };
+  const locationsClick = () => {
+    navigate(`/locations`);
+  };
 
   return (
     <div className="flex justify-around items-center size-full">
       <div className="flex justify-around w-[33%] mt-[40px]">
         <Navbutton name="The Journey" handleClick={journeyClick} />
         <Navbutton name="Characters" handleClick={characterClick} />
-        <Navbutton name="Locations" handleClick={tempClick} />
+        <Navbutton name="Locations" handleClick={locationsClick} />
       </div>
       <div className="w-[33%">
         <Link to="/">

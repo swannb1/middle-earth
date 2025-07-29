@@ -1,5 +1,6 @@
 import Navbar from "./components/navigation/Navbar";
 import ToggleMap from "./components/map/MapToggle";
+import Footer from "./components/navigation/Footer";
 
 const Journey = () => {
   return (
@@ -28,6 +29,9 @@ const Journey = () => {
       </div>
       <div>
         <ToggleMap />
+      </div>
+      <div className="bg-nazgul_gray h-[260px] border-t-2 border-[rgba(211,175,55)]">
+        <Footer />
       </div>
     </div>
   );

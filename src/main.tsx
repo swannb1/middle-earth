@@ -6,6 +6,7 @@ import App from "./App.tsx";
 import Home from "./Home.tsx";
 import Journey from "./Journey.tsx";
 import Characters from "./Characters.tsx";
+import Locations from "./Locations.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -15,6 +16,7 @@ createRoot(document.getElementById("root")!).render(
           <Route index element={<Home />} />
           <Route path="/journey" element={<Journey />} />
           <Route path="/characters" element={<Characters />} />
+          <Route path="/locations" element={<Locations />} />
         </Route>
       </Routes>
     </BrowserRouter>

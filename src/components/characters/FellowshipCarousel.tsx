@@ -36,7 +36,7 @@ const FellowshipCarousel = () => {
         "Boromir is the valiant son of Denethor, Steward of Gondor, and a member of the Fellowship. He seeks to use the Ring to defend his city but is corrupted by its power. He redeems himself by sacrificing his life to protect Merry and Pippin. His tragic arc underscores the Ring’s corruptive danger.",
     },
     {
-      name: "Frodo Baggins",
+      name: "Frodo",
       image: "/src/assets/images/Frodo.svg",
       race: "Hobbit",
       age: "50",
@@ -76,7 +76,7 @@ const FellowshipCarousel = () => {
         "Legolas is an Elven prince of the Woodland Realm and a master archer. Agile and perceptive, he brings elven grace and precision to the Fellowship. His deepening friendship with Gimli, a dwarf, is a symbol of hope for unity between their races. He continues adventuring even after the war ends.",
     },
     {
-      name: "Meriadoc (Merry) Brandybuck",
+      name: "Merry",
       image: "/src/assets/images/Merry.svg",
       race: "Hobbit",
       age: "52",
@@ -86,7 +86,7 @@ const FellowshipCarousel = () => {
         "Often called Merry, he is a clever and spirited hobbit who joins the Fellowship. He becomes a squire to King Théoden and fights bravely in the Battle of Pelennor Fields. Merry helps slay the Witch-king, a deed of great valor. He shows that even small folk can make a big impact.",
     },
     {
-      name: "Peregrin (Pippin) Took",
+      name: "Pippin",
       image: "/src/assets/images/Pippin.svg",
       race: "Hobbit",
       age: "50",
@@ -96,7 +96,7 @@ const FellowshipCarousel = () => {
         "Known as Pippin, he is a curious and sometimes impulsive hobbit who matures greatly through the war. He pledges service to Gondor and proves his courage in battle. His loyalty and heart make him an endearing and essential part of the story. After the war, he becomes a respected leader in the Shire.",
     },
     {
-      name: "Samwise Gamgee",
+      name: "Sam",
       image: "/src/assets/images/Samwise.svg",
       race: "Hobbit",
       age: "102",

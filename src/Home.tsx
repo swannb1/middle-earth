@@ -17,7 +17,7 @@ const Home = () => {
       <div>
         <Welcome />
       </div>
-      <div className="bg-nazgul_gray h-[260px]">
+      <div className="bg-nazgul_gray h-[260px] border-t-2 border-[rgba(211,175,55)]">
         <Footer />
       </div>
     </div>
