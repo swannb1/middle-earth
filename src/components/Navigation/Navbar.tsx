@@ -1,9 +1,9 @@
 import { Link, useNavigate } from "react-router-dom";
 import Navbutton from "./Navbutton";
 
-const tempClick = () => {
-  console.log("This Worked");
-};
+// const tempClick = () => {
+//   console.log("This Worked");
+// };
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -15,6 +15,12 @@ const Navbar = () => {
   };
   const locationsClick = () => {
     navigate(`/locations`);
+  };
+  const experienceClick = () => {
+    navigate(`/experience`);
+  };
+  const beyondClick = () => {
+    navigate(`/beyond`);
   };
 
   return (
@@ -30,8 +36,8 @@ const Navbar = () => {
         </Link>
       </div>
       <div className="flex justify-around w-[33%] mt-[40px]">
-        <Navbutton name="Experiencing Middle Earth" handleClick={tempClick} />
-        <Navbutton name="Beyond The Story" handleClick={tempClick} />
+        <Navbutton name="Experiencing Middle Earth" handleClick={experienceClick} />
+        <Navbutton name="Beyond The Story" handleClick={beyondClick} />
       </div>
     </div>
   );

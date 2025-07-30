@@ -1,13 +1,8 @@
-import Navbar from "./components/navigation/Navbar";
 import ToggleMap from "./components/map/MapToggle";
-import Footer from "./components/navigation/Footer";
 
 const Journey = () => {
   return (
     <div>
-      <div className="bg-nazgul_gray h-[130px] fixed w-dvw z-50 border-b-2 border-[rgba(211,175,55)]">
-        <Navbar />
-      </div>
       <div>
         <div className="relative bg-shire_green">
           {/* Transparent Leaves Background Layer */}
@@ -29,9 +24,6 @@ const Journey = () => {
       </div>
       <div>
         <ToggleMap />
-      </div>
-      <div className="bg-nazgul_gray h-[260px] border-t-2 border-[rgba(211,175,55)]">
-        <Footer />
       </div>
     </div>
   );
