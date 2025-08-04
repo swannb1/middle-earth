@@ -1,6 +1,6 @@
 import LocationsWelcome from "./components/locations/LocationsWelcome";
 import LocationPic from "./components/locations/LocationPic";
-import LocationList from "./components/locations/LocationList"; // adjust path if needed
+import LocationList from "./components/locations/LocationList";
 
 const Locations = () => {
   return (
