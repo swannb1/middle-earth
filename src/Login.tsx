@@ -1,5 +1,6 @@
 import formToJson from "./formToJson";
 import type { RegisterData } from "./types";
+
 const Login = () => {
   const handleRegisterSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -9,7 +10,7 @@ const Login = () => {
       const response = await fetch("http://127.0.0.1:8000/users", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(jsonData), // JSON OK for /users
+        body: JSON.stringify(jsonData),
       });
 
       if (!response.ok) throw new Error(`Register failed: ${response.status}`);
