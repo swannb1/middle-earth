@@ -37,6 +37,14 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Elven";
+  src: url("./assets/fonts/tngan.ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 @theme {
   --color-shire_green: oklch(0.6289 0.1329 132.8);
   --color-nazgul_gray: oklch(0.3077 0.0237 224.6);
@@ -48,6 +56,7 @@
   --font-bilbo: "Bilbo Hand";
   --font-maitree: "Maitree";
   --font-quicksand: "Quicksand";
+  --font-elven: "Elven";
 }
 
 .perspective {

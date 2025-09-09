@@ -9,6 +9,7 @@ import Characters from "./Characters.tsx";
 import Locations from "./Locations.tsx";
 import Experience from "./Experience.tsx";
 import Beyond from "./Beyond.tsx";
+import Login from "./Login.tsx";
 import ScrollToTop from "./components/navigation/ScrollToTop.tsx";
 
 createRoot(document.getElementById("root")!).render(
@@ -23,6 +24,7 @@ createRoot(document.getElementById("root")!).render(
           <Route path="/locations" element={<Locations />} />
           <Route path="/experience" element={<Experience />} />
           <Route path="/beyond" element={<Beyond />} />
+          <Route path="/login" element={<Login />} />
         </Route>
       </Routes>
     </BrowserRouter>
